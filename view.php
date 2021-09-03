@@ -1,7 +1,7 @@
 <?php
-    $title = 'view Records';
+   /* $title = 'view Records';
     require_once 'includes/header.php';
-    require_once 'db/conn.php';
+    require_once 'db/conn.php';*/
     
     if(isset($_REQUEST['id'])){
         echo "<h1 class='text-danger'>please check details and try again</h1>";
@@ -38,7 +38,7 @@
                     <a onclick="return confirm('Are you sure to want to delete this record');" 
                      href="delete.php?id=<?php echo $r['attendee_id'] ?>" class="btn btn-danger">delete</a>
  <?php } ?>
-
+ 
 
 <br>
 <br>

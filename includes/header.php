@@ -1,3 +1,6 @@
+<?php 
+  include_once 'includes/session.php';
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -28,7 +31,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
+    <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
         <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
       </li>
@@ -37,9 +40,6 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" href="viewrecords.php">view records</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
       </li>
     </ul>
   </div>
